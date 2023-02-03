@@ -6,7 +6,7 @@ import Image from 'next/image';
 import icon from 'public/icon.png';
 
 interface NavbarProps {
-    activePage: string;
+    activePage?: 'home' | 'about' | 'download';
 }
 
 const pages = [

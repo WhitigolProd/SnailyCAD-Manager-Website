@@ -47,7 +47,7 @@ export default function NotFoundPage() {
                                     }}
                                 >
                                     Would you stop knocking on this page? It
-                                    doesn't exist!
+                                    does{"n't"} exist!
                                 </h4>
                                 <Link href="/">
                                     <Button>Go Home</Button>

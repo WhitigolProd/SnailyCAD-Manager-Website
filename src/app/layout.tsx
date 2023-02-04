@@ -24,7 +24,10 @@ export default function RootLayout({
             <head />
             <body>
                 {isBrowser ? (
-                    <CssVarsProvider>
+                    <CssVarsProvider
+                        defaultMode="dark"
+                        defaultColorScheme="dark"
+                    >
                         <NextUIProvider
                             theme={createTheme({
                                 type: 'dark',

@@ -8,7 +8,9 @@ export default function Home() {
     return (
         <>
             <NavigationBar activePage="home" />
-            <HomeHero />
+            <div className="max-w-container mx-auto">
+                <HomeHero />
+            </div>
         </>
     );
 }

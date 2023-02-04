@@ -89,7 +89,10 @@ export default function NavigationBar(props: NavbarProps) {
                 <Navbar.Content>
                     <Dropdown isBordered>
                         <Navbar.Item>
-                            <Dropdown.Button className="border-solid border-[1px] border-white/30">
+                            <Dropdown.Button
+                                className="border-solid border-[1px] !border-white/30 !bg-transparent"
+                                ripple={false}
+                            >
                                 Github
                             </Dropdown.Button>
                         </Navbar.Item>

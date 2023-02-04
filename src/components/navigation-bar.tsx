@@ -116,7 +116,7 @@ export default function NavigationBar(props: NavbarProps) {
                                     target="_blank"
                                     className="w-full"
                                 >
-                                    v2
+                                    v3
                                 </Link>
                             </Dropdown.Item>
                         </Dropdown.Menu>

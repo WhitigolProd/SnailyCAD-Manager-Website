@@ -46,7 +46,7 @@ export default function About() {
                     SnailyCAD. 💪
                 </p>
 
-                <div className="flex w-1/3 mx-auto mt-5">
+                <div className="flex sm:w-full md:w-1/2 lg:w-1/3 mx-auto mt-5">
                     <Card>
                         <div className="flex flex-col gap-2">
                             <h4 className="text-2xl">So why wait?</h4>

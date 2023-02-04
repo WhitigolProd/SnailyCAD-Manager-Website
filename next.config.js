@@ -9,6 +9,14 @@ const nextConfig = {
     experimental: {
         appDir: true,
     },
+    images: {
+        domains: [
+            'dummyimage.com',
+            'images.unsplash.com',
+            'cdn.sanity.io',
+            'avatars.githubusercontent.com',
+        ],
+    },
 };
 
 module.exports = nextConfig;
